@@ -1,0 +1,18 @@
+﻿<?xml version='1.0'?>
+<Obfuscator>
+	<Var name="InPath" value=".\bin\Release\net8.0-windows10.0.19041.0\win10-x64" />
+	<Var name="OutPath" value=".\Obfuscator_Output" />
+	<!--IF false, Crash app-->
+	<Var name="KeepPublicApi" value="true" />
+	<Var name="HidePrivateApi" value="true" />
+	<Var name="RenameProperties" value="true" />
+	<Var name="RenameEvents" value="true" />
+	<Var name="RenameFields" value="true" />
+	<Var name="UseUnicodeNames" value="true" />
+	<Var name="HideStrings" value="true" />
+	<Var name="OptimizeMethods" value="true" />
+	<Var name="SuppressIldasm" value="true" />
+	<Module file="$(InPath)\Maui.DotObfuscatorApp.dll" />
+	<Module file="$(InPath)\Maui.DotObfuscatorCommons.dll" />
+	<!--<Module file="$(InPath)\Maui.DotObfuscatorApp.exe" />-->
+</Obfuscator>
