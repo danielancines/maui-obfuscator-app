@@ -13,6 +13,6 @@
 	<Var name="OptimizeMethods" value="true" />
 	<Var name="SuppressIldasm" value="true" />
 	<Module file="$(InPath)\Maui.DotObfuscatorApp.dll" />
-	<Module file="$(InPath)\Maui.DotObfuscatorCommons.dll" />
+	<Module file="$(InPath)\Maui.DotObfuscator.Commons.dll" />
 	<!--<Module file="$(InPath)\Maui.DotObfuscatorApp.exe" />-->
 </Obfuscator>

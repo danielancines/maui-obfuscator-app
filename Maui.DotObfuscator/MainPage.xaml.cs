@@ -1,4 +1,4 @@
-﻿using Maui.DotObfuscatorCommons;
+﻿using Maui.DotObfuscator.Commons;
 using System.Collections.ObjectModel;
 using System.Security.Cryptography;
 
@@ -27,7 +27,7 @@ public partial class MainPage : ContentPage
         string fileHash;
         using (var md5 = MD5.Create())
         {
-            using (var stream = File.OpenRead("D:\\code\\Maui.DotObfuscatorApp\\Obfuscar\\obfuscate.xml"))
+            using (var stream = File.OpenRead("D:\\code\\Maui.DotObfuscatorApp\\Maui.DotObfuscator\\Obfuscar\\obfuscate.xml"))
             {
                 var hash = md5.ComputeHash(stream);
                 fileHash = BitConverter.ToString(hash).Replace("-", "").ToLowerInvariant();

@@ -61,14 +61,14 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.92" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.92" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
-		<PackageReference Include="Obfuscar" Version="2.2.39">
+		<PackageReference Include="Obfuscar" Version="2.2.40">
 		  <PrivateAssets>all</PrivateAssets>
 		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\Maui.DotObfuscatorCommons\Maui.DotObfuscatorCommons.csproj" />
+	  <ProjectReference Include="..\Maui.DotObfuscator.Commons\Maui.DotObfuscator.Commons.csproj" />
 	</ItemGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
