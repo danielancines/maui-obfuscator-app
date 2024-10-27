@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 Obfuscator_Output
+.DS_Store
+.idea
